@@ -1,4 +1,6 @@
+# Checkout out the Arduino cli
 
+Install from https://github.com/arduino/arduino-cli
 
 # Commands
 
