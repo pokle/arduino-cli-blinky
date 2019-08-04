@@ -4,6 +4,8 @@ Install from https://github.com/arduino/arduino-cli
 
 # Commands
 
+(Using the fish shell)
+
 ```
 $ arduino-cli core install arduino:avr
 
@@ -17,12 +19,12 @@ Build options changed, rebuilding all
 Sketch uses 930 bytes (2%) of program storage space. Maximum is 32256 bytes.
 Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
 
-$ ls -l
+ $ ls -l
 total 56
--rwxr-xr-x  1 tushar  staff  14020 Aug  4 10:42 MyFirstSketch.arduino.avr.uno.elf
--rw-r--r--  1 tushar  staff   2640 Aug  4 10:42 MyFirstSketch.arduino.avr.uno.hex
--rw-r--r--  1 tushar  staff    166 Aug  4 10:21 MyFirstSketch.ino
--rw-r--r--  1 tushar  staff    413 Aug  4 10:41 README.md
+-rw-r--r--  1 tushar  staff   1057 Aug  4 10:52 README.md
+-rwxr-xr-x  1 tushar  staff  14032 Aug  4 10:52 arduino-cli-blinky.arduino.avr.uno.elf
+-rw-r--r--  1 tushar  staff   2640 Aug  4 10:52 arduino-cli-blinky.arduino.avr.uno.hex
+-rw-r--r--  1 tushar  staff    166 Aug  4 10:45 arduino-cli-blinky.ino
 
 $ set PORT /dev/cu.usbmodem14401
 $ arduino-cli upload -p $PORT --fqbn $FQBN
